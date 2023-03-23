@@ -1,0 +1,16 @@
+
+@import "../bootstrap/scss/bootstrap";
+
+$font-stack: "Courier New" Helvetica, sans-serif;
+$table-striped-bg:rgba($blue, $table-striped-bg-factor);
+$table-striped-color:$green;
+
+
+.body {
+  font-family: $font-stack;
+}
+
+.sm-text {
+  // font-size: $sub-sup-font-size;
+  font-size: calc(100% + 1vw);
+}
