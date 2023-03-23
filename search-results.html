@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Search Results</title>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+        <link href="assets/scss/styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="px-3 py-2 text-bg-success py-3">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                  <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <img class="bi me-2"  height="40" role="img" aria-label="Logo" src="assets/images/logo.svg"></img>
+                  </a>
+        
+                  <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                    <li>
+                      <a href="index.html" class="nav-link text-white">
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index.html" class="nav-link text-white">
+                        Search
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index.html" class="nav-link text-white">
+                        Login
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="px-3 py-2 border-bottom mb-3">
+                <div class="container d-flex flex-wrap justify-content-between  align-items-center">
+                    <ul class="nav  col-lg-9 justify-content-between">
+                        <!-- <li>
+                            <div>Filter: </div>
+                        </li> -->
+                        <li>
+                            Airline
+                            <form class="col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                                <input type="search" class="form-control" placeholder="Search">
+                              </form>
+                        </li>
+                        <li>
+                            Date
+                            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                                <input type="date" class="form-control" placeholder="Date" aria-label="Search">
+                              </form>
+                        </li>
+                        <li>
+                            Time
+                            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                                <input type="time" class="form-control" placeholder="Date" aria-label="Search">
+                              </form>
+                        </li>
+                        <li>Direct Flight
+                            <div class="input-group">
+                                <div class="input-group-text py-2">
+                                  <input class="form-check-input mt-0" type="checkbox" value="">
+                                </div>
+                              </div>
+                              
+                        </li>
+                    </ul>
+          
+                    <div class="text-end">
+                        <button type="button" class="btn btn-success">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="py-5">
+            <h1 class="fw-bold text-center">5 results found</h1>
+
+            <ul class="list-group col-lg-8 px-2 mx-auto">
+                <li class="list-group-item border border-dark rounded bg-info my-1 container">
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                            <div class="row py-2">
+                                <img class="col img-responsive" height="25vw" role="img" src="assets/images/ai.svg"></img>
+                                <div class="col">
+                                    <div class="row lead">
+                                        Air India
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col lead px-3 py-2">6:30 - 11:15</div>
+
+                        <div class="col px-4 py-2"><div class="row">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal1">
+                                Direct Flight
+                            </button>
+                            <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5">Route</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Depart: Bangalore">
+                                                <label for="floatingPlaintextInput">6:30</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Arrive: Delhi">
+                                                <label for="floatingPlaintextInput">11:15</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row lead">
+                        </div></div>
+                        <div class="col lead py-2">₹ 4249</div>
+                        <div class="col-lg-auto py-2">
+                            <div class="row">
+                                <a href="flight-details.html" class="btn btn-success">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                
+                
+                <li class="list-group-item border border-dark rounded bg-info my-1 container">
+                    <div class="row ">
+                        <div class="col-sm-3">
+
+                            <div class="row py-2">
+                                <img class="col img-responsive" height="25vw" role="img" src="assets/images/sj.svg"></img>
+                                <div class="col">
+                                    <div class="row lead">
+                                        Spice Jet
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col lead px-3 py-2">14:30 - 23:20</div>
+
+                        <div class="col px-4 py-2"><div class="row">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal2">
+                                2 Stops
+                            </button>
+                            <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" >Route</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Depart: Bangalore">
+                                                <label for="floatingPlaintextInput">14:30</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Arrive: Mumbai">
+                                                <label for="floatingPlaintextInput">16:35</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Depart: Mumbai">
+                                                <label for="floatingPlaintextInput">18:35</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Arrive: Ahmedabad">
+                                                <label for="floatingPlaintextInput">19:55</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Depart: Ahmedabad">
+                                                <label for="floatingPlaintextInput">21:40</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Arrive: Delhi">
+                                                <label for="floatingPlaintextInput">23:20</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row lead">
+                        </div></div>
+                        <div class="col lead py-2">₹ 5599</div>
+                        <div class="col-lg-auto py-2">
+                            <div class="row">
+                                <a href="flight-details.html" class="btn btn-success">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+
+                <li class="list-group-item border border-dark rounded bg-info my-1 container">
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                            <div class="row py-2">
+                                <img class="col img-responsive" height="25vw" role="img" src="assets/images/ai.svg"></img>
+                                <div class="col">
+                                    <div class="row lead">
+                                        Air India
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col lead px-3 py-2">17:10 - 20:00</div>
+
+                        <div class="col px-4 py-2"><div class="row">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal3">
+                                Direct Flight
+                            </button>
+                            <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5">Route</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Depart: Bangalore">
+                                                <label for="floatingPlaintextInput">17:10</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Arrive: Delhi">
+                                                <label for="floatingPlaintextInput">20:00</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row lead">
+                        </div></div>
+                        <div class="col lead py-2">₹ 4799</div>
+                        <div class="col-lg-auto py-2">
+                            <div class="row">
+                                <a href="flight-details.html" class="btn btn-success">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="list-group-item border border-dark rounded bg-info my-1 container">
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                            <div class="row py-2">
+                                <img class="col img-responsive" height="25vw" role="img" src="assets/images/IndiGo.svg"></img>
+                                <div class="col">
+                                    <div class="row lead">
+                                        IndiGo
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col lead px-3 py-2">6:15 - 9:35</div>
+
+                        <div class="col px-4 py-2"><div class="row">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal4">
+                                Direct Flight
+                            </button>
+                            <div class="modal fade" id="modal4" tabindex="-1"aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5">Route</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Depart: Bangalore">
+                                                <label for="floatingPlaintextInput">6:15</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Arrive: Delhi">
+                                                <label for="floatingPlaintextInput">9:35</label>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row lead">
+                        </div></div>
+                        <div class="col lead py-2">₹ 3600</div>
+                        <div class="col-lg-auto py-2">
+                            <div class="row">
+                                <a href="flight-details.html" class="btn btn-success">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="list-group-item border border-dark rounded bg-info my-1 container">
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                            <div class="row py-2">
+                                <img class="col img-responsive" height="25vw" role="img" src="assets/images/IndiGo.svg"></img>
+                                <div class="col">
+                                    <div class="row lead">
+                                        IndiGo
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col lead px-3 py-2">21:15 - 1:35</div>
+
+                        <div class="col px-4 py-2"><div class="row">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal5">
+                                1 Stop
+                            </button>
+                            <div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5">Route</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Depart: Bangalore">
+                                                <label for="floatingPlaintextInput">21:15</label>
+                                            </div><div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Arrive: Pune">
+                                                <label for="floatingPlaintextInput">22:35</label>
+                                            </div><div class="form-floating">
+                                                <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Depart: Pune">
+                                                <label for="floatingPlaintextInput">23:30</label>
+                                                <div class="form-floating">
+                                                    <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="Arrive: Delhi">
+                                                    <label for="floatingPlaintextInput">1:35</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row lead">
+                        </div></div>
+                        <div class="col lead py-2">₹ 3020</div>
+                        <div class="col-lg-auto py-2">
+                            <div class="row">
+                                <a href="flight-details.html" class="btn btn-success">Book</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                
+            </ul>
+        </div>
+
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <img class="bi me-2"  height="20" role="img" src="assets/images/logo.svg"></img>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-muted">© 2023 LogoIpsum Inc.</span>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+</html>
