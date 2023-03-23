@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find a flight</title>
+    <link href="assets/scss/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="px-3 py-2 text-bg-success py-3">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <img class="bi me-2"  height="40" role="img" aria-label="Logo" src="assets/images/logo.svg"></img>
+            </a>
+  
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a href="index.html" class="nav-link text-white">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="index.html" class="nav-link text-white">
+                  Search
+                </a>
+              </li>
+              <li>
+                <a href="index.html" class="nav-link text-white">
+                  Login
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="py-5 text-center">
+        <h1 class="fw-bold">Find your next flight!</h1>
+        <div class="py-5 row col-sm-7 gy-2 mx-auto">
+            <h5 class="text-start">Route</h5>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="Source" value="">
+                    <label for="Source">Leaving From</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="Destination" value="">
+                    <label for="Destination">Going To</label>
+                </div>
+            </div>
+        </div>
+        <div class="row py-2 col-sm-7 mx-auto">
+            <h5 class="text-start">Travel Date</h5>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="date" class="form-control" id="Travel-Date" value="">
+                    <label for="Travel-Date">Date</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-5 col-sm-7 gy-2 mx-auto">
+            <h5 class="text-start">Seats</h5>
+            <div class="col-md">
+                <div class="form-floating">
+                    <select class="form-select" id="Seat-Type">
+                        <option selected value="f-seat">First Class</option>
+                        <option value="e-seat">Economy Class</option>
+                    </select>
+                    <label for="floatingSelect">Class</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="AdultSeats" value="">
+                    <label for="Seat">Adult</label>
+                </div>                     
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="ChildSeats" value="">
+                    <label for="Seat">Child</label>
+                </div>                     
+            </div>
+        </div>
+        <a href="search-results.html" class="btn btn-success">Search</a>
+    </div>
+
+
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img class="bi me-2"  height="20" role="img" aria-label="Logo" src="assets/images/logo.svg"></img>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2023 LogoIpsum Inc.</span>
+          </div>
+        </footer>
+      </div>
+      
+    
+    </body>
+</html>
