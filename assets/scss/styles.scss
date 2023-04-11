@@ -1,8 +1,8 @@
 @import "../bootstrap/scss/functions";
 @import "../bootstrap/scss/variables";
 
-$form-floating-height: add(3.0rem, $input-height-border);
-$form-floating-line-height: 1;
+// $form-floating-height: add(3.5rem, $input-height-border);
+// $form-floating-line-height: 1;
 
 @import "../bootstrap/scss/bootstrap";
 
@@ -39,7 +39,7 @@ $table-striped-color:$green;
   width: 0;
  }
 
- .raise-btn {
-  position: relative;
-  z-index: 1000;
-}
+//  .raise-btn {
+//   position: relative;
+//   z-index: 1000;
+// }
