@@ -1,37 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Book your flight</title>
     <link href="assets/scss/styles.css" rel="stylesheet">
-  </head>
-  <body>
+</head>
 
-    <div class="px-3 py-2 text-bg-success py-3">
+<body>
+
+    <div class="p-3 text-bg-success">
         <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <img class="bi me-2"  height="40" role="img" aria-label="Logo" src="assets/images/logo.svg"></img>
+            <div class="row">
+                <a href="index.html" class="col">
+                    <img class="bi me-2" height="40" role="img" aria-label="Logo" src="assets/images/logo.svg"></img>
                 </a>
-  
-                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                    <li>
-                        <a href="index.html" class="nav-link text-white">
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.html" class="nav-link text-white">
-                            Search
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.html" class="nav-link text-white">
-                            Login
-                        </a>
-                    </li>
-                </ul>
+                <div class="col col-lg-3 row align-items-center">
+                    <a href="index.html" class="nav-link text-white col">
+                        About
+                    </a>
+
+                    <a href="index.html" class="nav-link text-white col">
+                        Search
+                    </a>
+
+                    <a href="index.html" class="nav-link text-white col">
+                        Login
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>
@@ -47,12 +45,12 @@
                 </div>
             </div>
             <div class="row my-2 col-sm-4 align-items-center">
-                    <div class="col">
-                        <h3>SG 8136</h3>
-                    </div>
-                    <div class="col">
-                        <h3>B-737</h3>
-                    </div>
+                <div class="col">
+                    <h3>SG 8136</h3>
+                </div>
+                <div class="col">
+                    <h3>B-737</h3>
+                </div>
             </div>
         </div>
 
@@ -82,18 +80,20 @@
 
             </div>
             <div class="row col-sm-4 align-items-center px-4">
-                    <div class="col">
-                        <div class="form-floating">
-                            <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="14:30">
-                            <label for="floatingPlaintextInput">Departure</label>
-                        </div>
+                <div class="col">
+                    <div class="form-floating">
+                        <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput"
+                            value="14:30">
+                        <label for="floatingPlaintextInput">Departure</label>
                     </div>
-                    <div class="col">
-                        <div class="form-floating">
-                            <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput" value="23:20">
-                            <label for="floatingPlaintextInput">Arrival</label>
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="form-floating">
+                        <input type="text" readonly class="form-control-plaintext" id="floatingPlaintextInput"
+                            value="23:20">
+                        <label for="floatingPlaintextInput">Arrival</label>
                     </div>
+                </div>
             </div>
         </div>
 
@@ -104,36 +104,36 @@
                 </div>
                 <div class="row col-sm-auto">
                     <table class="table table-striped table-borderless">
-                          <tr>
+                        <tr>
                             <td>Bangalore</td>
                             <td>Departure</td>
                             <td>14:30</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>∘<br>∘</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Mumbai</td>
                             <td>Layover</td>
                             <td>16:35-18:35</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>∘<br>∘</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Ahmedabad</td>
                             <td>Layover</td>
                             <td>19:55-21:40</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>∘<br>∘</td>
-                          </tr>
-                          <tr>
+                        </tr>
+                        <tr>
                             <td>Delhi</td>
                             <td>Arrival</td>
                             <td>23:20</td>
-                          </tr>
-                      </table>
+                        </tr>
+                    </table>
                 </div>
             </div>
             <div class="col-sm-4 align-items-center my-3 px-4">
@@ -146,7 +146,7 @@
                             <tr class="table-success">
                                 <th scope="col">Description</th>
                                 <th scope="col">Price</th>
-                              </tr>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
@@ -170,11 +170,11 @@
                                 <td>599</td>
                             </tr>
                             <tr class="border-top border-2 border-dark">
-                                <td >Total</td>
+                                <td>Total</td>
                                 <td>5599</td>
                             </tr>
                         </tbody>
-                       
+
                     </table>
                 </div>
                 <div class="row px-5">
@@ -195,13 +195,14 @@
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                    <img class="bi me-2"  height="20" role="img" src="assets/images/logo.svg"></img>
+                    <img class="bi me-2" height="20" role="img" src="assets/images/logo.svg"></img>
                 </a>
                 <span class="mb-3 mb-md-0 text-muted">© 2023 LogoIpsum Inc.</span>
             </div>
         </footer>
     </div>
-      
-    
-    </body>
+
+
+</body>
+
 </html>
