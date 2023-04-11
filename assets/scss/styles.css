@@ -2392,8 +2392,8 @@ textarea.form-control-lg {
 .form-floating > .form-control,
 .form-floating > .form-control-plaintext,
 .form-floating > .form-select {
-  height: calc(3.5rem + 2px);
-  line-height: 1.25;
+  height: calc(3rem + 2px);
+  line-height: 1;
 }
 .form-floating > label {
   position: absolute;
@@ -10775,6 +10775,16 @@ textarea.form-control-lg {
 
 .sm-text {
   font-size: calc(100% + 1vw);
+}
+
+.accordion-button:after {
+  display: none;
+  width: 0;
+}
+
+.raise-btn {
+  position: relative;
+  z-index: 1000;
 }
 
 /*# sourceMappingURL=styles.css.map */
